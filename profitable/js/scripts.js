@@ -79,9 +79,9 @@ const valorSpanSaque = document.getElementById('valor-saque');
 const valorSpanMoney = document.getElementById('valor-money');
 
 function atualizarValor() {
-    valorSpan.textContent = `€ ${valor.toFixed(2)}`;
-    valorSpanSaque.textContent = `€ ${valor.toFixed(2)}`;
-    valorSpanMoney.textContent = `€ ${valor.toFixed(2)}`;
+    valorSpan.textContent = `$ ${valor.toFixed(2)}`;
+    valorSpanSaque.textContent = `$ ${valor.toFixed(2)}`;
+    valorSpanMoney.textContent = `$ ${valor.toFixed(2)}`;
     setCookie('valor', valor.toFixed(2), 365); // Armazena o valor como um cookie vÃ¡lido por 1 ano
 }
 
